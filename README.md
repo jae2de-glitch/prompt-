@@ -25,11 +25,10 @@
    npm install
    ```
 
-2. **환경 변수 설정**:
-   `.env` 파일에 Gemini API 키를 설정합니다.
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
+2. **환경 변수 설정 (중요)**:
+   이 앱은 Gemini AI 기능을 위해 API 키가 필요합니다.
+   AI Studio의 **Settings > Secrets** 메뉴에서 `GEMINI_API_KEY` 항목에 발급받은 키를 입력하세요.
+   *입력된 키는 퍼블리싱 시 자동으로 안전하게 주입됩니다.*
 
 3. **개발 서버 실행**:
    ```bash
